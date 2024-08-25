@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Hide default Swiper navigation buttons */
+.swiper-button-prev,
+.swiper-button-next {
+    display: none;
+}
+
+/* Style custom navigation buttons */
+.swiper-button-prev-custom,
+.swiper-button-next-custom {
+    position: absolute;
+    top: 50%;
+    width: 40px; /* Adjust the size as needed */
+    height: 40px; /* Adjust the size as needed */
+    margin-top: -25px; /* Adjust to center the button vertically */
+    z-index: 10;
+    cursor: pointer;
+}
+
+.swiper-button-prev-custom {
+    left: 10px /* Adjust the position as needed */
+}
+
+.swiper-button-next-custom {
+    right: 10px; /* Adjust the position as needed */
+}
+
+.swiper-button-prev-custom img,
+.swiper-button-next-custom img {
+    width: 100%;
+    height: 100%;
+}
