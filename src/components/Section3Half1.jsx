@@ -12,7 +12,7 @@ export default function Section3Half1(){
                         <div className="text-PPurple pt-16 font-bold text-3xl">
                             Commence. Connect. Create
                         </div>
-                        <div className="text-white font-semibold w-96 pt-2 text-center text-xl">
+                        <div className="text-white font-semibold max-w-96 pt-2 text-center text-xl">
                         SkillMonde combines educational expertise, quality commitment, and innovation to deliver impactful solutions. With a global reach, they ensure culturally relevant education tailored to the unique needs of each community.
                         </div>
                         <div className="pt-14">

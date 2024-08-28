@@ -15,7 +15,7 @@ export default function Hero(){
     return (
         <>
          <div className=' relative z-0'>
-            <div className='absolute   z-20  w-full '>
+            <div className='absolute   z-20  w-full pt-1'>
                 
             <Navbar/>
             
