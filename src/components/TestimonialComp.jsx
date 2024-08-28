@@ -8,7 +8,7 @@ export default function TestimonialComp({review,client,image}){
 
                 <div className="flex flex-col items-center gap-2 lg:gap-6">
                     <div>
-                    <img className="size-fit h-16" src="https://avatar.iran.liara.run/public" />
+                    <img className="object-contain h-16" src="https://avatar.iran.liara.run/public" />
                     </div>
                     <div className="lg:w-1/2 w-72  p-1 text-base font-medium lg:text-lg">
                         {review}

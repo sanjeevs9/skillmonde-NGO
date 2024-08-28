@@ -32,9 +32,9 @@ export default function Hero(){
       pagination={{clickable:true}}
       modules={[Autoplay,Navigation]}
     >
-      <SwiperSlide><div className='h-60 md:h-auto '><img className='object-cover h-full ' src={one}></img> </div></SwiperSlide>
-      <SwiperSlide><div className='h-60 md:h-auto '><img className='object-cover h-full '  src={two}></img> </div></SwiperSlide>
-      <SwiperSlide><div className='h-60 md:h-auto '><img className='object-cover h-full '  src={three}></img> </div></SwiperSlide>
+      <SwiperSlide><div className='h-60 md:h-screen '><img className='object-cover h-full ' src={one}></img> </div></SwiperSlide>
+      <SwiperSlide><div className='h-60 md:h-screen '><img className='object-cover h-full '  src={two}></img> </div></SwiperSlide>
+      <SwiperSlide><div className='h-60 md:h-screen '><img className='object-cover h-full '  src={three}></img> </div></SwiperSlide>
     </Swiper>
     <div className="swiper-button-prev-custom">
     <img src={left} alt="Previous" />
