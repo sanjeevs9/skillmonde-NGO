@@ -4,7 +4,7 @@ export default function AboutUs(){
     return(
         <>
         <div className=" justify-center flex ">
-        <div className="w-[75rem]   pt-10 lg:pt-20 pl-20 pr-20">
+        <div className="w-[75rem]   pt-10 lg:pt-20 pl-5 pr-5 lg:pl-20 lg:pr-20">
             <div className="border-8 bborder-[#f6f5f7] bg-[#f6f5f7] p-10 ">
                 <div className=" text-white flex flex-col justify-center items-center gap-4">
                     <div className="bg-[#dddbdb] w-fit pl-2 pr-2">About Us</div>

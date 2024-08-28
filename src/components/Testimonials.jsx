@@ -8,7 +8,7 @@ import 'swiper/css/navigation';
 export default function Testimonial(){
     return(
         <>
-            <div className="pt-10">
+            <div className="pt-10 p-5">
             <Swiper className=''
       spaceBetween={50}
       slidesPerView={1}
@@ -25,10 +25,6 @@ export default function Testimonial(){
       <SwiperSlide><TestimonialComp review={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe ea nemo earum minus, cum repudiandae inventore, perspiciatis ipsam itaque soluta sapiente accusantium animi provident! Fugiat explicabo non aliquid iste eum?"}  client={"-sanjeev"}/></SwiperSlide>
       <SwiperSlide><TestimonialComp review={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe ea nemo earum minus, cum repudiandae inventore, perspiciatis ipsam itaque soluta sapiente accusantium animi provident! Fugiat explicabo non aliquid iste eum?"}  client={"-sanjeev"}/></SwiperSlide>
     </Swiper>
-                <div className="  flex justify-center">
-                    
-                    
-                </div>
             </div>
         </>
     )
