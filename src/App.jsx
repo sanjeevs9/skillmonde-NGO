@@ -7,6 +7,8 @@ import Section3 from './components/Section3'
 import Services from './components/Services'
 import Testimonial from './components/Testimonials'
 import NewsLetter from './components/NewsLetter'
+import Case from './components/Case'
+import Clients from './components/Clients'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,7 +20,9 @@ function App() {
     <Section3/>
     <Services/>
     <Testimonial/>
+    <Case/>
     <NewsLetter/>
+    <Clients/>
     </>
   )
 }

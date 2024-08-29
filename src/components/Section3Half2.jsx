@@ -10,7 +10,7 @@ export default function Section3Half2(){
             <div className="">
                 <div className="bg-[#f6f4fd] rounded-tl-[6rem] ">
                     <div className="flex flex-col p-2 lg:p-12 xl:p-16 gap-5  lg:gap-16  w-full ">
-                        <div className="flex flex-col lg:flex-row w-full  items-center md:items-start lg:justify-between pl-5 pr-5  gap-5 xl:gap-0 ">
+                        <div className="flex flex-col lg:flex-row w-full   items-center  lg:items-start lg:justify-between pl-5 pr-5  gap-5 xl:gap-0 ">
                             <div className="flex flex-col max-w-72  lg:w-60  ">
                                 <img className="object-contain h-20" src={education}/>
                                 <div className="font-bold text-sm">
@@ -30,7 +30,7 @@ export default function Section3Half2(){
                                 </div>
                             </div>
                         </div>
-                        <div className="flex flex-col lg:flex-row items-center lg:items-start  lg:justify-between pl-5 pr-5 gap-5 xl:gap-0">
+                        <div className=" flex flex-col lg:flex-row items-center lg:items-start  lg:justify-between pl-5 pr-5 gap-5 xl:gap-0">
                             <div className="flex flex-col max-w-72  lg:w-60">
                                 <img className="object-contain h-12" src={idea}/>
                                 <div className="font-bold text-sm">

@@ -4,7 +4,7 @@
 export default function NewsLetter(){
     return (
         <>
-            <div>
+            <div className="pt-10">
                 <div className="bg-[#bce382] w-full h-[10rem] md:h-[12rem] lg:h-[14rem] xl:h-[16rem] flex justify-center">
                     <div className="flex  flex-col items-center justify-center gap-7">
                         <div className="text-PPurple font-bold text-xl md:text-2xl ">SUBSCRIBE TO NEWSLETTER</div>
