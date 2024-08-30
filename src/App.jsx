@@ -9,6 +9,8 @@ import Testimonial from './components/Testimonials'
 import NewsLetter from './components/NewsLetter'
 import Case from './components/Case'
 import Clients from './components/Clients'
+import ContactUs from './components/ContactUs'
+import Team from './components/Team'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -21,8 +23,11 @@ function App() {
     <Services/>
     <Testimonial/>
     <Case/>
+    
+    <Team/>
     <NewsLetter/>
     <Clients/>
+    <ContactUs/>
     </>
   )
 }

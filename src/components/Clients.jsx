@@ -60,14 +60,14 @@ export default function Clients(){
     return (
         <>
         <div className="pt-10">
-            <div className="items-center flex justify-center font-bold text-4xl pb-5">CASE STUDIES</div>
+            <div className="items-center flex justify-center font-bold text-4xl pb-5">Our Clients</div>
             <Swiper 
             style={{
                 "--swiper-pagination-bullet-horizontal-gap": "6px",
                 "--swiper-pagination-bullet-vertical-gap": "10px"
             }}
         spaceBetween={20}
-        slidesPerView={page}
+        slidesPerView={6}
         autoplay={{delay: 1500,disableOnInteraction: false}}
         loop={true}
         speed={1000}
@@ -77,23 +77,21 @@ export default function Clients(){
         }} 
         modules={[Autoplay,Navigation]}
         
-        className="mySwiper bg-[#eeeeee] flex xl:pl-40 pb-10 pt-10 "
+        className="mySwiper bg-[#eeeeee] flex  pb-10 pt-10  "
       >
        
-                <SwiperSlide  className=""><div className=" justify-center flex"><img className="object-contain h-24" src={one}></img></div></SwiperSlide>
-                <SwiperSlide  className=""><div className=" justify-center flex"><img className="object-contain h-24" src={two}></img></div></SwiperSlide>
-                <SwiperSlide  className=""><div className=" justify-center flex"><img className="object-contain h-24" src={three}></img></div></SwiperSlide>
-                <SwiperSlide  className=""><div className=" justify-center flex"><img className="object-contain h-24" src={four}></img></div></SwiperSlide>
-                <SwiperSlide  className=""><div className=" justify-center flex"><img className="object-contain h-24" src={five}></img></div></SwiperSlide>
-                <SwiperSlide  className=""><div className=" justify-center flex"><img className="object-contain h-24" src={six}></img></div></SwiperSlide>
-                <SwiperSlide  className=""><div className=" justify-center flex"><img className="object-contain h-24" src={seven}></img></div></SwiperSlide>
-                <SwiperSlide  className=""><div className=" justify-center flex"><img className="object-contain h-24" src={eight}></img></div></SwiperSlide>
-                <SwiperSlide  className=""><div className=" justify-center flex"><img className="object-contain h-24"src={nine}></img></div></SwiperSlide>
-                <SwiperSlide  className=""><div className=" justify-center flex"><img className="object-contain h-24" src={ten}></img></div></SwiperSlide>
-                <SwiperSlide  className=""><div className=" justify-center flex"><img className="object-contain h-24" src={eleven}></img></div></SwiperSlide>
-                
+                <SwiperSlide  className=""><div className=" justify-center flex"><img className="object-contain  h-6 md:h-10 lg:h-16 xl:h-20" src={one}></img></div></SwiperSlide>
+                <SwiperSlide  className=""><div className=" justify-center flex"><img className="object-contain  h-6 md:h-10 lg:h-16 xl:h-20" src={two}></img></div></SwiperSlide>
+                <SwiperSlide  className=""><div className=" justify-center flex"><img className="object-contain  h-6 md:h-10 lg:h-16 xl:h-20" src={three}></img></div></SwiperSlide>
+                <SwiperSlide  className=""><div className=" justify-center flex"><img className="object-contain  h-6 md:h-10 lg:h-16 xl:h-20" src={four}></img></div></SwiperSlide>
+                <SwiperSlide  className=""><div className=" justify-center flex"><img className="object-contain  h-6 md:h-10 lg:h-16 xl:h-20" src={five}></img></div></SwiperSlide>
+                <SwiperSlide  className=""><div className=" justify-center flex"><img className="object-contain  h-6 md:h-10 lg:h-16 xl:h-20" src={six}></img></div></SwiperSlide>
+                <SwiperSlide  className=""><div className=" justify-center flex"><img className="object-contain  h-6 md:h-10 lg:h-16 xl:h-20" src={seven}></img></div></SwiperSlide>
+                <SwiperSlide  className=""><div className=" justify-center flex"><img className="object-contain  h-6 md:h-10 lg:h-16 xl:h-20" src={eight}></img></div></SwiperSlide>
+                <SwiperSlide  className=""><div className=" justify-center flex"><img className="object-contain  h-6 md:h-10 lg:h-16 xl:h-20" src={nine}></img></div></SwiperSlide>
+                <SwiperSlide  className=""><div className=" justify-center flex"><img className="object-contain  h-6 md:h-10 lg:h-16 xl:h-20" src={ten}></img></div></SwiperSlide>
+                <SwiperSlide  className=""><div className=" justify-center flex"><img className="object-contain  h-6 md:h-10 lg:h-16 xl:h-20" src={eleven}></img></div></SwiperSlide>
 
-        
       </Swiper>
             </div>
         </>
