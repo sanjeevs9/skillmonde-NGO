@@ -1,9 +1,17 @@
+import { useState } from "react"
+import ServiceModal from "./ServiceModal";
 
 
-export default function ServicesComp({image,text}){
+export default function ServicesComp({image,text,bullet,paragraph}){
+    const[open,setopen]=useState(false);
+
+    function help(){
+        setopen(!open);
+    }
     return (
         <>
-            <div className="flex flex-col justify-center items-center  w-fit bg-white  ">
+        <ServiceModal bullet={bullet} paragraph={paragraph} open={open} fn={help}></ServiceModal>
+            <div onClick={help} className="flex flex-col justify-center items-center  w-fit bg-white cursor-pointer ">
                 <div className="">
                 <img className="object-contain h-60" src={image}/>
                 </div>

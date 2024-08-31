@@ -11,6 +11,7 @@ import Case from './components/Case'
 import Clients from './components/Clients'
 import ContactUs from './components/ContactUs'
 import Team from './components/Team'
+import Footer from './components/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -28,6 +29,7 @@ function App() {
     <NewsLetter/>
     <Clients/>
     <ContactUs/>
+    <Footer/>
     </>
   )
 }
