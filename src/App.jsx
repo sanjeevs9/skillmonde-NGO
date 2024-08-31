@@ -12,24 +12,24 @@ import Clients from './components/Clients'
 import ContactUs from './components/ContactUs'
 import Team from './components/Team'
 import Footer from './components/Footer'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import ServiceSingle from './components/ServiceSingle'
+import Home from './components/Home'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-     <Hero/>
-     <AboutUs/>
-    <Section3/>
-    <Services/>
-    <Testimonial/>
-    <Case/>
-    
-    <Team/>
-    <NewsLetter/>
-    <Clients/>
-    <ContactUs/>
-    <Footer/>
+
+      
+        
+        <Routes>
+          <Route path="/" element={<Home/>}></Route>
+          <Route path="/service" element={<ServiceSingle/>}></Route>
+      </Routes>
+  
+
     </>
   )
 }

@@ -11,13 +11,13 @@ import left from "../../public/left.png"
 import right from "../../public/right.png"
 import "../index.css"
 
-export default function Hero(){
+export default function Hero({serviceref,clientref,aboutref,contactref}){
     return (
         <>
          <div className=' relative z-0 '>
             <div className='absolute   z-20  w-full pt-1'>
                 
-            <Navbar/>
+            <Navbar serviceref={serviceref} clientref={clientref} aboutref={aboutref} contactref={contactref}/>
             
             </div>
            <Swiper className=''
@@ -32,9 +32,9 @@ export default function Hero(){
       pagination={{clickable:true}}
       modules={[Autoplay,Navigation]}
     >
-      <SwiperSlide><div className='h-60 md:h-screen '><img className='object-cover h-full ' src={one}></img> </div></SwiperSlide>
-      <SwiperSlide><div className='h-60 md:h-screen '><img className='object-cover h-full '  src={two}></img> </div></SwiperSlide>
-      <SwiperSlide><div className='h-60 md:h-screen '><img className='object-cover h-full '  src={three}></img> </div></SwiperSlide>
+      <SwiperSlide><div className='h-60  md:h-screen w-full '><img className='object-cover h-full w-full ' src={one}></img> </div></SwiperSlide>
+      <SwiperSlide><div className='h-60 md:h-screen w-full '><img className='object-cover h-full w-full '  src={two}></img> </div></SwiperSlide>
+      <SwiperSlide><div className='h-60 md:h-screen w-full'><img className='object-cover h-full w-full'  src={three}></img> </div></SwiperSlide>
     </Swiper>
     <div className="swiper-button-prev-custom">
     <img src={left} alt="Previous" />

@@ -1,21 +1,23 @@
 import { useState } from "react"
 import ServiceModal from "./ServiceModal";
+import { useNavigate } from "react-router-dom";
 
 
 export default function ServicesComp({image,text,bullet,paragraph}){
     const[open,setopen]=useState(false);
+    const navigate=useNavigate();
 
     function help(){
-        setopen(!open);
+        navigate("/service",{state:{bullet,paragraph,title:text}});
     }
     return (
         <>
-        <ServiceModal bullet={bullet} paragraph={paragraph} open={open} fn={help}></ServiceModal>
-            <div onClick={help} className="flex flex-col justify-center items-center  w-fit bg-white cursor-pointer ">
+        
+            <div onClick={help} className="flex flex-col justify-center items-center  w-fit bg-white cursor-pointer  ">
                 <div className="">
-                <img className="object-contain h-60" src={image}/>
+                <img className="object-cover w-96 h-60 md:w-80 md:h-72 lg:w-80 lg:h-72" src={image}/>
                 </div>
-                <div className="text-PPurple font-bold text-sm  w-10/12  items-center text-center pb-4">
+                <div className="text-PPurple pt-2 md:pt-0 font-bold text-sm  w-full  items-center text-center pb-4">
                     {text}
                 </div>
             </div>

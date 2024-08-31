@@ -1,6 +1,6 @@
 import ServicesComp from "./ServicesComp";
 import course from "../assets/course.png"
-import learn from "../assets/learn.png"
+import learn from "../assets/58096.jpg"
 import lms from "../assets/lms.png"
 import help from "../assets/service.jpg";
 
@@ -21,10 +21,10 @@ export default function Services(){
     return(
 
         <>
-            <div className="pt-20 ">
-                <div className="items-center flex justify-center font-bold text-4xl pb-5">Services</div>
-            <div className="flex flex-col xl:flex-row bg-[#eeeeee] gap-5  pt-10 pb-10  xl:justify-evenly">
-        <div className="flex flex-col md:flex-row w-full justify-center items-center gap-5 md:gap-20 lg:gap-40 xl:justify-evenly xl:gap-0 xl:pl-5 "  >
+            <div  className="pt-20 ">
+                <div className="items-center flex justify-center  font-bold text-4xl pb-5">Services</div>
+            <div className="flex flex-col xl:flex-row bg-[#eeeeee] gap-5  xl:gap-0  pt-10 pb-10  xl:justify-center ">
+        <div className="flex flex-col md:flex-row w-full justify-center items-center gap-5 md:gap-20 lg:gap-40   xl:justify-evenly xl:gap-0 xl:pl-5  2xl:translate-x-10 "  >
        <ServicesComp bullet={{
     "0": "CSR Strategy Development: Collaborate with our expert team to develop a CSR strategy that reflects your organization’s values and community needs. We ensure that every project aligns with compliance standards and maximizes social impact.",
     "1": "End-to-End Project Management: From initial concept to execution, we manage every aspect of your CSR projects. Our comprehensive approach ensures that your initiatives are executed smoothly and effectively, with clear goals and timelines.",
@@ -39,7 +39,7 @@ export default function Services(){
   "2": "Monitoring, Evaluation, and Reporting: Our robust monitoring systems track the progress and impact of your CSR activities. We provide detailed reports to showcase the effectiveness of your programs, ensuring transparency and accountability."
 }} paragraph={"Expert CSR Implementation Agency for Effective Social Impact SkillMonde specializes in CSR implementation services that help organizations design and execute impactful Corporate Social Responsibility initiatives. As a leading CSR implementation agency, we partner with NGOs and corporate entities to create programs that align with social goals and deliver measurable outcomes.Our CSR Implementation Services Include:"} text={"CSR Implementation Services"} image={learn}/>
        </div>
-       <div className="flex flex-col md:flex-row w-full justify-center items-center gap-5 md:gap-20 lg:gap-40 xl:gap-0 xl:justify-evenly xl:pr-5"  >
+       <div className="flex flex-col md:flex-row w-full justify-center items-center gap-5 md:gap-20 lg:gap-40 xl:gap-0 xl:justify-evenly xl:pr-5 2xl:-translate-x-10 "  >
        <ServicesComp bullet={{
     "0": "CSR Strategy Development: Collaborate with our expert team to develop a CSR strategy that reflects your organization’s values and community needs. We ensure that every project aligns with compliance standards and maximizes social impact.",
     "1": "End-to-End Project Management: From initial concept to execution, we manage every aspect of your CSR projects. Our comprehensive approach ensures that your initiatives are executed smoothly and effectively, with clear goals and timelines.",
