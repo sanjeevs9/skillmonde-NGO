@@ -17,7 +17,7 @@ export default function Section3Half2(){
                                     Expertise in Education 
                                 </div>
                                 <div className="text-sm">
-                                 Our team brings a deep understanding of educational best practices, curriculum design, and the unique needs of learners across different stages of education.
+                                  Our team brings a deep understanding of educational best practices, curriculum design, and the unique needs of learners across different stages of education.
                                 </div>
                             </div>
                             <div className="flex flex-col pt-4 max-w-72  lg:w-60  ">

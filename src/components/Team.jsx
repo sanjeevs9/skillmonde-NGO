@@ -7,7 +7,6 @@ export default function Team() {
         <>
             <div className="flex justify-center overflow-x-hidden  pb-48 md:pb-[22rem] lg:pb-[32rem] ">
                 <div className="  w-full h-[5rem] md:h-[7rem] lg:h-[11rem] absolute -translate-y-10 " >
-
                     <div className="relative   top-3/4 sm:top-3/4 md:top-3/4  justify-center  flex items-center">
                         <div className=" flex w-full xl:w-[85rem]  h-full justify-between xl:justify-around pl-2 pr-2 md:pl-7 md:pr-7 lg:pl-10 lg:pr-10  ">
                             <div className=" bg-[#8478a3] rounded-tr-3xl rounded-bl-3xl flex flex-col justify-center items-center h-[7rem] w-[7rem] sm:h-[11rem] sm:w-[11rem] md:h-[13rem] md:w-[13rem] lg:h-[17rem] lg:w-[17rem] xl:h-[18rem] xl:w-[18rem]">
@@ -33,13 +32,11 @@ export default function Team() {
 
                                 </div>
                             </div>
-
                             <div className=" bg-[#8478a3] rounded-tr-3xl rounded-bl-3xl flex flex-col justify-center items-center h-[7rem] w-[7rem] sm:h-[11rem] sm:w-[11rem] md:h-[13rem] md:w-[13rem] lg:h-[17rem] lg:w-[17rem] xl:h-[18rem] xl:w-[18rem]">
                                 <div className=" rounded-full h-[6rem] w-[6rem] sm:h-[9rem] sm:w-[9rem]   md:h-[10rem] md:w-[10rem] lg:h-[11rem] lg:w-[11rem] absolute lg:static " style={{
                                     backgroundImage: `url(${two})`, backgroundPosition: "center",
                                     backgroundSize: "cover"
                                 }}>
-
                                 </div>
                                 <div className="hidden lg:flex lg:flex-col lg:pt-3 ">
                                     <div className="text-sm lg:font-medium text-center">Prof Dubey </div>
@@ -54,7 +51,6 @@ export default function Team() {
                                 </div>
                                 <div className="relative lg:hidden -bottom-3/4 sm:-bottom-2/3">
                                     <div className="text-sm text-white sm:text-base">Prof Dubey </div>
-
                                 </div>
                             </div>
                             <div className=" bg-[#8478a3] rounded-tr-3xl rounded-bl-3xl flex flex-col justify-center items-center h-[7rem] w-[7rem] sm:h-[11rem] sm:w-[11rem] md:h-[13rem] md:w-[13rem] lg:h-[17rem] lg:w-[17rem] xl:h-[18rem] xl:w-[18rem]">
@@ -62,7 +58,6 @@ export default function Team() {
                                     backgroundImage: `url(${three})`, backgroundPosition: "center",
                                     backgroundSize: "cover"
                                 }}>
-
                                 </div>
                                 <div className="hidden lg:flex lg:flex-col lg:pt-3 ">
                                     <div className="text-sm lg:font-medium text-center">Gagan Josh</div>
@@ -80,8 +75,6 @@ export default function Team() {
 
                                 </div>
                             </div>
-
-
                         </div>
                     </div>
                     <div className="h-[7rem] sm:h-[10rem] lg:h-[15rem]  flex bg-[#cfc8e1] justify-center items-end lg:pb-5 xl:pb-10">
@@ -90,7 +83,6 @@ export default function Team() {
                         </div>
                     </div>
                 </div>
-
             </div>
         </>
     )

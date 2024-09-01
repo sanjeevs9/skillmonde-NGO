@@ -9,8 +9,7 @@ import NewsLetter from "./NewsLetter"
 import Clients from "./Clients"
 import ContactUs from "./ContactUs"
 import Footer from "./Footer"
-import { useEffect, useRef,useLayoutEffect } from "react"
-import { useFetcher } from "react-router-dom"
+import { useEffect, useRef } from "react"
 
 export default function Home(){
     const serviceref=useRef(null);
@@ -38,7 +37,6 @@ export default function Home(){
                 default:
                     break;
             }
-
             if (element) {
                 element.scrollIntoView({ behavior: 'smooth' });
             }
@@ -52,7 +50,7 @@ export default function Home(){
             <AboutUs/>
             </div>
             <Section3/>
-            <div   id="service" ref={serviceref}>
+            <div ref={serviceref}>
             <Services />
             </div>
             <Testimonial/>
