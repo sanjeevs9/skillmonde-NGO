@@ -12,7 +12,6 @@ export default function ServicesComp({image,text,bullet,paragraph}){
     }
     return (
         <>
-        
             <div onClick={help} className="flex flex-col justify-center items-center  w-fit bg-white cursor-pointer  ">
                 <div className="">
                 <img className="object-cover w-96 h-60 md:w-80 md:h-72 lg:w-80 lg:h-72" src={image}/>
