@@ -46,17 +46,19 @@ export default function Home(){
     return (
         <>
             <Hero serviceref={serviceref} clientref={clientref} aboutref={aboutref} contactref={contactref}/>
-            {/* <div ref={aboutref}>
-            <AboutUs/>
-            </div> */}
+           
             <Section3/>
             <div ref={serviceref}>
             <Services />
             </div>
             <Testimonial/>
             <Case/>
+             
             <Team/>
-            <NewsLetter/>
+            <div ref={aboutref}>
+            <AboutUs/>
+            </div> 
+            {/* <NewsLetter/> */}
             <div ref={clientref}>
             <Clients/>
             </div>
