@@ -14,7 +14,7 @@ import "../index.css"
 export default function Hero({ serviceref, clientref, aboutref, contactref }) {
   return (
     <>
-      <div className=' relative z-0 '>
+      <div className=' relative z-0  '>
         <div className='absolute   z-20  w-full pt-1'>
           <Navbar serviceref={serviceref} clientref={clientref} aboutref={aboutref} contactref={contactref} />
         </div>
@@ -40,6 +40,57 @@ export default function Hero({ serviceref, clientref, aboutref, contactref }) {
         </div>
         <div className="swiper-button-next-custom">
           <img src={right} alt="Next" />
+        </div>
+        <div className='flex gap-10 justify-center absolute -bottom-1/4 left-1/2 transform -translate-x-1/2 z-20'>
+          <div className='bg-[#aa91e4] rounded-bl-[5rem]'>
+            <div className='flex flex-col justify-center items-center text-white  gap-2 pl-8 pr-8 h-full pt-6 pb-6 '>
+              <div className='font-semibold text-2xl'>
+                JOIN US NOW
+              </div>
+              <div className='w-[12rem] text-sm text-center'>
+                We beleive that education is the key to a better future. 
+                We are dedicated to supporting our partners in their mission to educate, empower and inspire learners.
+              </div>
+              <div>
+                <button className='border-2 p-1 text-xs'>
+                  Read More
+                </button>
+              </div>
+              
+            </div>
+          </div>
+          <div className='bg-[#95d338] rounded-br-[5rem] rounded-tl-[5rem]'>
+            <div className='flex flex-col justify-center items-center text-white  gap-2  pl-8 pr-8 h-full '>
+              <div className='font-semibold text-2xl'>
+                OUR SERVICES
+              </div>
+              <div className='w-[12rem] text-sm text-center'>
+                At SkillMonde, we offer a comprehensive suite of servies designed to support NGOs, Publishers, EdTech companies and universites in their educational initiatives
+              </div>
+              <div>
+                <button className='border-2 p-1 text-xs'>
+                  Read More
+                </button>
+              </div>
+              
+            </div>
+          </div>
+          <div className='bg-[#aa91e4] rounded-br-[5rem]'>
+            <div className='flex flex-col justify-center items-center text-white  gap-2 pl-8 pr-8 h-full  '> 
+              <div className='font-semibold text-2xl'>
+                GET INVOLVED
+              </div>
+              <div className='w-[12rem] text-sm text-center'>
+                Skillmonde beldns educational expertise, quality, and innovation with global relevance. GEt involved to help create impactful, culturally sensitive solutions.
+              </div>
+              <div>
+                <button className='border-2 p-1 text-xs'>
+                  Read More
+                </button>
+              </div>
+              
+            </div>
+          </div>
         </div>
       </div>
     </>

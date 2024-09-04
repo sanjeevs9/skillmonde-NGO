@@ -21,7 +21,7 @@ export default function Services(){
     return(
 
         <>
-            <div  className="pt-20 ">
+            <div  className="pt-20  ">
                 <div className="items-center flex justify-center  font-bold text-4xl pb-5">Services</div>
             <div className="flex flex-col xl:flex-row bg-[#eeeeee] gap-5  xl:gap-0  pt-10 pb-10  xl:justify-center ">
         <div className="flex flex-col md:flex-row w-full justify-center items-center gap-5 md:gap-20 lg:gap-40   xl:justify-evenly xl:gap-0 xl:pl-5  2xl:translate-x-10 "  >
