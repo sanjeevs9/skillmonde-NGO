@@ -2,11 +2,28 @@
 import image1 from "../assets/case1.png"
 import image2 from "../assets/case2.png"
 import image3 from "../assets/case3.png"
+import image4 from "../assets/case4.jpg"
+import image5 from "../assets/case5.jpg"
+import image6 from "../assets/case6.jpg"
+import image7 from "../assets/case7.jpg"
+import image8 from "../assets/case8.jpg"
+import image9 from "../assets/case9.jpg"
+import image10 from "../assets/case10.jpg"
+import image11 from "../assets/case11.jpg"
+
 
 const imageMap={
     1:image1,
     2:image2,
-    3:image3
+    3:image3,
+    4:image4,
+    5:image5,
+    6:image6,
+    7:image7,
+    8:image8,
+    9:image9,
+    10:image10,
+    11:image11
 
 }
 
