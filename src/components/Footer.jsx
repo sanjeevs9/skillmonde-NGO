@@ -33,19 +33,25 @@ export default function Footer() {
                         <div className="flex flex-col items-center lg:items-start gap-1 font-medium ">
                             <div className="font-bold text-xl lg:text-base xl:text-xl">Contact Us</div>
                             <div className="flex gap-1">
+                                <div className="pt-[0.1rem]">
                                 <img className="object-contain  h-[1rem] pt-1" src={location}></img>
+                                </div>
                                 <div className="lg:text-sm xl:text-base">
                                    Sharda University Greater Noida
                                 </div>
                             </div>
                             <div className="flex gap-1">
+                            <div className="pt-[0.1rem]">
                                 <img className="object-contain  h-[1rem] pt-1" src={phone}></img>
+                                </div>
                                 <div className="lg:text-sm xl:text-base">
                                 +91&nbsp;9348923842
                                 </div>
                             </div>
                             <div className="flex gap-1">
+                            <div className="pt-[0.1rem]">
                                 <img className="object-contain  h-[1rem] pt-1" src={message}></img>
+                                </div>
                                 <div className="lg:text-sm xl:text-base">sample@gmail.com</div>
                             </div>
                         </div>

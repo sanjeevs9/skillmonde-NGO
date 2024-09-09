@@ -32,7 +32,6 @@ export default function Case(){
                 setpage(1);
             }
             if(window.innerWidth>1250){
-                console.log("sdfkasndf")
                 setpage(3);
             }
             console.log(window.innerWidth)

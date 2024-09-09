@@ -3,12 +3,12 @@ import ServiceModal from "./ServiceModal";
 import { useNavigate } from "react-router-dom";
 
 
-export default function ServicesComp({image,text,bullet,paragraph}){
+export default function ServicesComp({image,text,bullet,paragraph,pic}){
     const[open,setopen]=useState(false);
     const navigate=useNavigate();
 
     function help(){
-        navigate("/service",{state:{bullet,paragraph,title:text}});
+        navigate("/service",{state:{bullet,paragraph,title:text,image:pic}});
     }
     return (
         <>
