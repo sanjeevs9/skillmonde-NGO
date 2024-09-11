@@ -16,7 +16,7 @@ export default function TestimonialComp({review,client,image}){
                     <div className="lg:w-1/2 w-72  p-1 text-base font-medium lg:text-lg">
                         {review}
                     </div>
-                    <div className="italic font-semibold pb-10">
+                    <div className="italic font-semibold pb-10  text-center">
                         {client}
                     </div>
                 </div>

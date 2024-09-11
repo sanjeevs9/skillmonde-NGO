@@ -18,9 +18,9 @@ export default function Footer() {
                         <div>
                             <img className="object-contain h-[6rem] xl:h-[7rem]" src={logo}></img>
                         </div>
-                        <div className="text-PPurple text-sm font-semibold lg:max-w-[15rem] ">
+                        {/* <div className="text-PPurple text-sm font-semibold lg:max-w-[15rem] ">
                             We provde the best latest technology of equipment and our staff are available in 24/7 at clientall.
-                        </div>
+                        </div> */}
                         <div className="flex gap-5">
                             <img className="object-contain h-[1.5rem] cursor-pointer" src={insta}></img>
                             <img className="object-contain h-[1.5rem] cursor-pointer" src={x}></img>
