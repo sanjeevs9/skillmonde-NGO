@@ -48,8 +48,7 @@ export default function Hero({ serviceref, clientref, aboutref, contactref }) {
                 JOIN US NOW 
               </div>
               <div className='w-[12rem] xl:w-[14rem] text-xs lg:text-sm 2xl:text-sm text-center'>
-                We beleive that education is the key to a better future. 
-                We are dedicated to supporting our partners in their mission to educate, empower and inspire learners.
+              We believe that education is the key to a better future. We are dedicated to supporting our partners in their mission to educate, empower, and inspire learners
                 
               </div>
               <div>
@@ -66,7 +65,7 @@ export default function Hero({ serviceref, clientref, aboutref, contactref }) {
                 OUR SERVICES
               </div>
               <div className='w-[12rem] text-xs  lg:text-sm text-center'>
-                At SkillMonde, we offer a comprehensive suite of servies designed to support NGOs, Publishers, EdTech companies and universites in their educational initiatives
+              At SkillMonde, we offer a comprehensive suite of services designed to support NGOs, publishers, EdTech companies, and universities in their educational initiatives.
               </div>
               <div>
                 <button className='border-2 p-1 text-xs xl:text-sm 2xl:text-base'>
@@ -82,7 +81,7 @@ export default function Hero({ serviceref, clientref, aboutref, contactref }) {
                 GET INVOLVED
               </div>
               <div className='w-[12rem] text-xs lg:text-sm text-center'>
-                Skillmonde beldns educational expertise, quality, and innovation with global relevance. GEt involved to help create impactful, culturally sensitive solutions.
+              SkillMonde blends educational expertise, quality, and innovation with global relevance. Get involved to help create impactful, culturally sensitive solutions.
               </div>
               <div>
                 <button className='border-2 p-1 text-xs xl:text-sm 2xl:text-base'>
