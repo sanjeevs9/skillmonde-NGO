@@ -11,7 +11,9 @@ import left from "../../public/left.png"
 import right from "../../public/right.png"
 import "../index.css"
 
+
 export default function Hero({ serviceref, clientref, aboutref, contactref }) {
+
   return (
     <>
       <div className=' relative z-0  '>
@@ -21,7 +23,7 @@ export default function Hero({ serviceref, clientref, aboutref, contactref }) {
         <Swiper className=''
           spaceBetween={50}
           slidesPerView={1}
-          autoplay={{ delay: 3500, disableOnInteraction: false }}
+          autoplay={{ delay: 100000, disableOnInteraction: false }}
           loop={true}
           speed={1000}
           navigation={{
@@ -31,9 +33,62 @@ export default function Hero({ serviceref, clientref, aboutref, contactref }) {
           pagination={{ clickable: true }}
           modules={[Autoplay, Navigation]}
         >
-          <SwiperSlide><div className='h-60  md:h-screen w-full '><img className='object-cover h-full w-full ' src={one}></img> </div></SwiperSlide>
-          <SwiperSlide><div className='h-60 md:h-screen w-full '><img className='object-cover h-full w-full ' src={two}></img> </div></SwiperSlide>
-          <SwiperSlide><div className='h-60 md:h-screen w-full'><img className='object-cover h-full w-full' src={three}></img> </div></SwiperSlide>
+          <SwiperSlide>
+            <div className='h-60  md:h-screen w-full relative  '>
+            <img className='object-cover h-full w-full ' src={one}></img>
+            <div className='absolute inset-0 flex items-center   justify-center  w-full   h-full '>
+              <div className=' translate-y-5 sm:translate-y-0 md:translate-y-1/4 lg:translate-y-32    h-full w-full'>
+                <div className='bg-contain h-60  sm:h-[20rem] md:h-[40rem]  lg:h-[50rem] relative  ' style={{
+                  backgroundImage:'url("https://s3-alpha-sig.figma.com/img/024a/8ed3/9d0888cad9ca01ddf7fd525fa5c6542e?Expires=1728259200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=fN65~aQdPdBw~5W0Hykz7kdgbXFQ2XTJNLWYCzdCZ6jwVm6AQumuaKkuUIWYMUCX5v1zeXyyRWipGW3-vJxLoXZD0LpvOCx~KlUhg2s8zRDQvndt1LingTFxAG1IP76VlOCp6GGRpdDqFThZlObEaUmBFyxSx8YfckZzLW5OCTlJ4kFdZZQguUwO7u4tHrnh4FwO98fHGyGeItkJWE24G79cSr4TSbtSkJ1VBsfbSN5BzRy~b-KcWgm27-ltStJm~KLJ7U3pNMDANCv~YUko1ex~S4FJtZx8iiKO7YL9lvqs6~Ck0eoAQlsk~rIDsUhshUPgT4-rIXgmsOHce8tT5A__")',
+                  backgroundRepeat:"no-repeat",
+                }}>
+                  <div className='absolute   text-center  translate-y-1/2    translate-x-1/2 sm:translate-x-1/4 md:translate-x-1/3 pt-5 sm:pt-5 md:pt-16 lg:pt-20 '>
+                      <div className='w-[12rem] sm:w-1/2 md:w-8/12 h-1/2 '>
+                        <div className='text-xs sm:text-sm md:text-lg lg:text-xl xl:text-2xl sm:pb-2 md:font-semibold'>
+                        <h1 className='font-bold  md:text-xl md:pb-3 lg:text-4xl xl:text-5xl'>Helping NGOs Make a Greater Impact</h1>
+                        Simple, effective solutions in Training, CSR, and eLearning to drive your mission forward
+                        </div>
+                        <button className='bg-green-400 text-xs p-1 sm:p-2 md:p-3 md:text-base xl:p-4 xl:text-lg sm:font-semibold text-white '>
+                          REACH US
+                        </button>
+                      </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            </div>
+            
+            
+            </SwiperSlide>
+          <SwiperSlide><div className='h-60 md:h-screen w-full '><img className='object-cover h-full w-full ' src={two}></img>
+                
+           </div></SwiperSlide>
+          <SwiperSlide><div className='h-60 md:h-screen w-full'><img className='object-cover h-full w-full' src={three}></img> 
+          <div className='absolute inset-0 flex items-center   justify-center  w-full   h-full '>
+              <div className=' translate-y-5 sm:translate-y-0 md:translate-y-1/4 lg:translate-y-32  h-full w-full'>
+                <div className='bg-contain h-60  sm:h-[20rem] md:h-[40rem]  lg:h-[50rem] relative  ' style={{
+                  backgroundImage:'url("https://s3-alpha-sig.figma.com/img/024a/8ed3/9d0888cad9ca01ddf7fd525fa5c6542e?Expires=1728259200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=fN65~aQdPdBw~5W0Hykz7kdgbXFQ2XTJNLWYCzdCZ6jwVm6AQumuaKkuUIWYMUCX5v1zeXyyRWipGW3-vJxLoXZD0LpvOCx~KlUhg2s8zRDQvndt1LingTFxAG1IP76VlOCp6GGRpdDqFThZlObEaUmBFyxSx8YfckZzLW5OCTlJ4kFdZZQguUwO7u4tHrnh4FwO98fHGyGeItkJWE24G79cSr4TSbtSkJ1VBsfbSN5BzRy~b-KcWgm27-ltStJm~KLJ7U3pNMDANCv~YUko1ex~S4FJtZx8iiKO7YL9lvqs6~Ck0eoAQlsk~rIDsUhshUPgT4-rIXgmsOHce8tT5A__")',
+                  backgroundRepeat:"no-repeat",
+                }}>
+                  <div className='absolute   text-center  translate-y-1/2    translate-x-1/2 sm:translate-x-1/4 md:translate-x-1/3 xl:translate-x-1/4  pt-2 sm:pt-5 md:pt-16 lg:pt-20 '>
+                      <div className='w-[12rem] sm:w-1/2 md:w-6/12   '>
+                        <div className='text-xs sm:text-sm md:text-lg lg:text-xl xl:text-2xl sm:pb-2 md:font-semibold'>
+                        <h1 className='font-bold  md:text-xl md:pb-3 lg:text-4xl xl:text-5xl'>Transform  your Learning with Cutting-Edge Technology</h1>
+                        Personalized Course Design
+                        Interactive and Engaging Content
+                        Seamless LMS Integration
+                        </div>
+                        <button className='bg-green-400 text-xs p-1 sm:p-2 md:p-3 md:text-base xl:p-4 xl:text-lg sm:font-semibold text-white '>
+                          REACH US
+                        </button>
+                      </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div></SwiperSlide>
         </Swiper>
         <div className="swiper-button-prev-custom">
           <img src={left} alt="Previous" />
