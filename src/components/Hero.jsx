@@ -30,6 +30,7 @@ export default function Hero({ serviceref, clientref, aboutref, contactref }) {
             nextEl: ".swiper-button-next-custom",
             prevEl: ".swiper-button-prev-custom"
           }}
+          
           pagination={{ clickable: true }}
           modules={[Autoplay, Navigation]}
         >
