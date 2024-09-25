@@ -23,7 +23,7 @@ export default function Hero({ serviceref, clientref, aboutref, contactref }) {
         <Swiper className=''
           spaceBetween={50}
           slidesPerView={1}
-          autoplay={{ delay: 100000, disableOnInteraction: false }}
+          autoplay={{ delay: 1000, disableOnInteraction: false }}
           loop={true}
           speed={1000}
           navigation={{
