@@ -37,7 +37,7 @@ export default function Footer() {
                                 <img className="object-contain  h-[1rem] pt-1" src={location}></img>
                                 </div>
                                 <div className="lg:text-sm xl:text-base">
-                                   Sharda University Greater Noida
+                                Nukleus Tower, Plot 29, Sector 142 Noida- 201305
                                 </div>
                             </div>
                             <div className="flex gap-1">
@@ -45,14 +45,14 @@ export default function Footer() {
                                 <img className="object-contain  h-[1rem] pt-1" src={phone}></img>
                                 </div>
                                 <div className="lg:text-sm xl:text-base">
-                                +91&nbsp;9348923842
+                                +91&nbsp;9650023642
                                 </div>
                             </div>
                             <div className="flex gap-1">
                             <div className="pt-[0.1rem]">
                                 <img className="object-contain  h-[1rem] pt-1" src={message}></img>
                                 </div>
-                                <div className="lg:text-sm xl:text-base">sample@gmail.com</div>
+                                <div className="lg:text-sm xl:text-base">info@skillmonde.com</div>
                             </div>
                         </div>
                     </div>

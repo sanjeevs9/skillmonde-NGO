@@ -20,7 +20,7 @@ export default function Navbar({serviceref,clientref,aboutref,contactref}){
                             }} className="cursor-pointer">SERVICES</div>
                     <div onClick={() => {
                                 if (clientref && clientref.current) {
-                                    serviceref.current.scrollIntoView();
+                                    clientref.current.scrollIntoView();
                                 } else {
                                     navigate("/#client")
                                 }

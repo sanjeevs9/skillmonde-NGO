@@ -7,7 +7,7 @@ export default function Section3Half1(){
                 <div className="bg-[#bce382] flex items-center justify-center md:w-9/12 rounded-br-[6rem]">
                     <div className="flex flex-col items-center p-10 lg:p-16 ">
                         <div className="text-white font-bold text-2xl lg:text-3xl">
-                            Why SKillModne?
+                            Why SKillMonde?
                         </div>
                         <div className="text-PPurple pt-10 lg:pt-16 font-bold text-xl lg:text-3xl">
                             Commence. Connect. Create
