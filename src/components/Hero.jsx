@@ -38,9 +38,9 @@ export default function Hero({ serviceref, clientref, aboutref, contactref }) {
             <div className='h-60  md:h-screen w-full relative  '>
             <img className='object-cover h-full w-full ' src={one}></img>
             <div className='absolute inset-0 flex items-center   justify-center  w-full   h-full '>
-              <div className=' translate-y-5 sm:translate-y-0 md:translate-y-1/4 lg:translate-y-32    h-full w-full'>
+              <div className=' translate-y-5 sm:translate-y-0 md:translate-y-1/4 lg:translate-y-14    h-full w-full'>
                 <div className='bg-contain h-60  sm:h-[20rem] md:h-[40rem]  lg:h-[50rem] relative  ' style={{
-                  backgroundImage:'url("https://s3-alpha-sig.figma.com/img/024a/8ed3/9d0888cad9ca01ddf7fd525fa5c6542e?Expires=1728259200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=fN65~aQdPdBw~5W0Hykz7kdgbXFQ2XTJNLWYCzdCZ6jwVm6AQumuaKkuUIWYMUCX5v1zeXyyRWipGW3-vJxLoXZD0LpvOCx~KlUhg2s8zRDQvndt1LingTFxAG1IP76VlOCp6GGRpdDqFThZlObEaUmBFyxSx8YfckZzLW5OCTlJ4kFdZZQguUwO7u4tHrnh4FwO98fHGyGeItkJWE24G79cSr4TSbtSkJ1VBsfbSN5BzRy~b-KcWgm27-ltStJm~KLJ7U3pNMDANCv~YUko1ex~S4FJtZx8iiKO7YL9lvqs6~Ck0eoAQlsk~rIDsUhshUPgT4-rIXgmsOHce8tT5A__")',
+                  backgroundImage:'url("https://s3-alpha-sig.figma.com/img/024a/8ed3/9d0888cad9ca01ddf7fd525fa5c6542e?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=aFa4LvuDj1GKdLB-9gw2U~Ktk0KwpznTfFisRFQ8GAeRFU~7Fuc8fCWz-SALldg7otuvwyuW6bh-TPOxQ002ellGLmzzWjwUnLBMVJ1y-ROCgli2u8NWbM6~jNerw-ha81j7TJhtNC7cY9p3o2EPiKtUttexck00Pr2y4jZbekNjx-ZBJkb0PuFkcQaKDy53sr7Fm23OfJZ2rv0reEP8uisf8muq~IGKmrw7soviVE66VqNhdGGkJNsxMqmIiCJU99Sh5hr~nGWCC9gkmdXBRUqJEPN6DW7ODE3iV2FwGrboW6M6P7kzmFUEfmogZlqI0-Y~5eCYwkgog9O9QXvvKA__")',
                   backgroundRepeat:"no-repeat",
                 }}>
                   <div className='absolute   text-center  translate-y-1/2    translate-x-1/2 sm:translate-x-1/4 md:translate-x-1/3 pt-2 sm:pt-5 md:pt-16 lg:pt-20 '>
@@ -63,13 +63,36 @@ export default function Hero({ serviceref, clientref, aboutref, contactref }) {
             
             </SwiperSlide>
           <SwiperSlide><div className='h-60 md:h-screen w-full '><img className='object-cover h-full w-full ' src={two}></img>
+          <div className='hidden absolute inset-0 lg:flex items-center   justify-center  w-full   h-full '>
+              <div className='   relative top-1/4 -right-1/4  '>
+                <div className=' bg-contain  lg:w-[50rem] lg:h-[40rem] xl:h-[50rem] xl:w-[60rem] 2xl:w-[70rem] 2xl:h-[60rem]   ' style={{
+                  backgroundImage:'url("https://s3-alpha-sig.figma.com/img/024a/8ed3/9d0888cad9ca01ddf7fd525fa5c6542e?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=aFa4LvuDj1GKdLB-9gw2U~Ktk0KwpznTfFisRFQ8GAeRFU~7Fuc8fCWz-SALldg7otuvwyuW6bh-TPOxQ002ellGLmzzWjwUnLBMVJ1y-ROCgli2u8NWbM6~jNerw-ha81j7TJhtNC7cY9p3o2EPiKtUttexck00Pr2y4jZbekNjx-ZBJkb0PuFkcQaKDy53sr7Fm23OfJZ2rv0reEP8uisf8muq~IGKmrw7soviVE66VqNhdGGkJNsxMqmIiCJU99Sh5hr~nGWCC9gkmdXBRUqJEPN6DW7ODE3iV2FwGrboW6M6P7kzmFUEfmogZlqI0-Y~5eCYwkgog9O9QXvvKA__")',
+                  backgroundRepeat:"no-repeat",
+                }}>
+                  <div className='  absolute   text-center  translate-y-1/2    translate-x-1/4 xl:pt-10 2xl:pl-10'>
+                      <div className='w-[12rem] sm:w-1/2 md:w-6/12   '>
+                        <div className='text-xs sm:text-sm md:text-lg lg:text-xl xl:text-2xl sm:pb-2 md:font-semibold'>
+                        <h1 className='font-bold  md:text-xl md:pb-3 lg:text-3xl 2xl:text-4xl'>Transform  your Learning with Cutting-Edge Technology</h1>
+                        Personalized Course Design
+                        Interactive and Engaging Content
+                        Seamless LMS Integration
+                        </div>
+                        <button className='bg-green-400 text-xs p-1 sm:p-2 md:p-3 md:text-sm xl:p-3 xl:text-base sm:font-semibold text-white '>
+                          REACH US
+                        </button>
+                      </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
                 
            </div></SwiperSlide>
           <SwiperSlide><div className='h-60 md:h-screen w-full'><img className='object-cover h-full w-full' src={three}></img> 
           <div className='absolute inset-0 flex items-center   justify-center  w-full   h-full '>
-              <div className=' translate-y-5 -translate-x-10 sm:-translate-x-0 sm:translate-y-0 md:translate-y-1/4 lg:translate-y-32  h-full w-full'>
+              <div className=' translate-y-5 -translate-x-10 sm:-translate-x-0 sm:translate-y-0 md:translate-y-1/4 lg:translate-y-10  h-full w-full'>
                 <div className='bg-contain h-60  sm:h-[20rem] md:h-[40rem]  lg:h-[50rem] relative  ' style={{
-                  backgroundImage:'url("https://s3-alpha-sig.figma.com/img/024a/8ed3/9d0888cad9ca01ddf7fd525fa5c6542e?Expires=1728259200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=fN65~aQdPdBw~5W0Hykz7kdgbXFQ2XTJNLWYCzdCZ6jwVm6AQumuaKkuUIWYMUCX5v1zeXyyRWipGW3-vJxLoXZD0LpvOCx~KlUhg2s8zRDQvndt1LingTFxAG1IP76VlOCp6GGRpdDqFThZlObEaUmBFyxSx8YfckZzLW5OCTlJ4kFdZZQguUwO7u4tHrnh4FwO98fHGyGeItkJWE24G79cSr4TSbtSkJ1VBsfbSN5BzRy~b-KcWgm27-ltStJm~KLJ7U3pNMDANCv~YUko1ex~S4FJtZx8iiKO7YL9lvqs6~Ck0eoAQlsk~rIDsUhshUPgT4-rIXgmsOHce8tT5A__")',
+                  backgroundImage:'url("https://s3-alpha-sig.figma.com/img/024a/8ed3/9d0888cad9ca01ddf7fd525fa5c6542e?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=aFa4LvuDj1GKdLB-9gw2U~Ktk0KwpznTfFisRFQ8GAeRFU~7Fuc8fCWz-SALldg7otuvwyuW6bh-TPOxQ002ellGLmzzWjwUnLBMVJ1y-ROCgli2u8NWbM6~jNerw-ha81j7TJhtNC7cY9p3o2EPiKtUttexck00Pr2y4jZbekNjx-ZBJkb0PuFkcQaKDy53sr7Fm23OfJZ2rv0reEP8uisf8muq~IGKmrw7soviVE66VqNhdGGkJNsxMqmIiCJU99Sh5hr~nGWCC9gkmdXBRUqJEPN6DW7ODE3iV2FwGrboW6M6P7kzmFUEfmogZlqI0-Y~5eCYwkgog9O9QXvvKA__")',
                   backgroundRepeat:"no-repeat",
                 }}>
                   <div className='absolute   text-center  translate-y-1/2    translate-x-1/2 sm:translate-x-1/4 md:translate-x-1/3 xl:translate-x-1/4  pt-2 sm:pt-5 md:pt-16 lg:pt-20 '>
