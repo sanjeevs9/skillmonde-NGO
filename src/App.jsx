@@ -15,6 +15,7 @@ import Footer from './components/Footer'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import ServiceSingle from './components/ServiceSingle'
 import Home from './components/Home'
+import CaseSingle from './components/CaseSingle'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -27,6 +28,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home/>}></Route>
           <Route path="/service" element={<ServiceSingle/>}></Route>
+          <Route path="/case" element={<CaseSingle/>}></Route>
       </Routes>
   
 

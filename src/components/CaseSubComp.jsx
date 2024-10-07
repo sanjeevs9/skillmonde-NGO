@@ -10,6 +10,7 @@ import image8 from "../assets/case8.jpg"
 import image9 from "../assets/case9.jpg"
 import image10 from "../assets/case10.jpg"
 import image11 from "../assets/case11.jpg"
+import { useNavigate } from "react-router-dom"
 
 
 const imageMap={
@@ -29,10 +30,12 @@ const imageMap={
 
 export default function CaseSubComp({image,heading,text,paragraph,id}){
     const imagePath=imageMap[id];
+    const navigate=useNavigate();
     
     return (
     <>
-            <div className="flex flex-col  justify-center items-center cursor-pointer">
+    
+            <div onClick={()=>{navigate("/case",{state:{image:imagePath,title:heading,paragraph,text}})}} className="flex flex-col  justify-center items-center cursor-pointer">
                 <div className="h-[22rem] w-[22rem]  ">
                     <img className="object-cover h-full" src={imagePath}/>
                 </div>
